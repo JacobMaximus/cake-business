@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 body {
     margin:0;
     padding:0;
@@ -24,7 +24,8 @@ ul{
     
 }
 ul li {
-    padding: 10px;
+    margin-top: 40px;
+    padding: 0 40px;
 }
 
 .home {
@@ -32,7 +33,7 @@ ul li {
 }
 
 .container{
-    max-width: 700px;
+    max-width: 1400px;
     margin: auto;
     
 }
@@ -52,14 +53,19 @@ ul li {
     border: rgb(163, 67, 115)solid 2px;
     border-radius: 20px;
 }
+*{
+    font-family: "Itim", cursive;
+    font-style: normal;
+}
 .header p, .header h1, ul,.callus .container, .Copyright{
     color: #f3e9cf;
-    font-family: "Barriecito", system-ui;
-    font-family: "Fontdiner Swanky", serif;
+    
 }
 
 .flex{
     display:flex;
+    /* flex-wrap: wrap; */
+    
 }
 .flex img{
     border-radius: 20px;
@@ -76,7 +82,7 @@ ul li {
 }
 
 .callus{
-    width: 880px;
+    width: 1100px;
     background-color: #DF4671;
     border-radius: 20px;
     margin: 70px auto;
@@ -85,11 +91,15 @@ ul li {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0px;
+    padding: 15px 80px;
 }
 
 .Copyright{
     text-align: center;
     background-color: #ca4b6f;
     padding: 10px;
+}
+
+.cakes{
+    text-align: center;
 }
