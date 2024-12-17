@@ -47,12 +47,7 @@ ul li {
     border-radius: 20px;
     border: rgb(163, 67, 115)solid 5px;
 }
-.happy button, .callus button{
-    color:#f3e9cf;
-    background-color: #e4507a;
-    border: rgb(163, 67, 115)solid 2px;
-    border-radius: 20px;
-}
+
 *{
     font-family: "Itim", cursive;
     font-style: normal;
@@ -65,6 +60,8 @@ ul li {
 .flex{
     display:flex;
     /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+
     
 }
 .flex img{
@@ -75,10 +72,11 @@ ul li {
 .quote{
     background-color: bisque;
     height: auto;
+    margin-top:50px;
 }
 
 .quote .container{
-    padding:30px;
+    padding: 50px 150px;
 }
 
 .callus{
@@ -93,13 +91,23 @@ ul li {
     align-items: center;
     padding: 15px 80px;
 }
-
+.middle p{
+    font-size: 20px;
+}
+.callus p{
+    font-size: 25px;
+}
 .Copyright{
     text-align: center;
     background-color: #ca4b6f;
     padding: 10px;
+    font-size: 20px;
 }
 
 .cakes{
     text-align: center;
+}
+
+button{
+    font-size: large;
 }
